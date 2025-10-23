@@ -1,9 +1,8 @@
-import tailwindcss from '@tailwindcss/postcss'
-import autoprefixer from 'autoprefixer'
-
-export default {
-  plugins: [
-    tailwindcss,
-    autoprefixer,
-  ],
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    optimizeCss: false, // disables LightningCSS to avoid native module errors
+  },
 }
+
+export default nextConfig
