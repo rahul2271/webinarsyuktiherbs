@@ -16,7 +16,7 @@ export default function DoctorPage({ params }) {
 
       <div className="flex gap-4 flex-col sm:flex-row">
         <Link href={`/${doctorId}/upcoming`} className="px-4 py-3 bg-white rounded shadow">Upcoming Webinars</Link>
-        <Link href={`/${doctorId}/past`} className="px-4 py-3 bg-white rounded shadow">Past Web inars</Link>
+        <Link href={`/${doctorId}/past`} className="px-4 py-3 bg-white rounded shadow">Past Webinars</Link>
         <Link href={`/${doctorId}/register`} className="px-4 py-3 bg-white rounded shadow">Register for Webinar</Link>
       </div>
     </div>
