@@ -2,14 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base layout styling */
-html,
-body,
-#__next {
-  height: 100%;
+body {
+  @apply bg-gray-50; /* now Tailwind can recognize this */
 }
 
-/* Global body styles using Tailwind @apply */
-body {
-  @apply bg-gray-50 text-gray-900 antialiased;
-}
+
+/* Custom global styles can be added here */
