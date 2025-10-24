@@ -1,8 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    optimizeCss: false, // disables LightningCSS to avoid native module errors
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {},
   },
-}
+};
 
-export default nextConfig
+export default config;
